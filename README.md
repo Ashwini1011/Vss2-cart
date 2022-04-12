@@ -16,7 +16,7 @@ This project has following requirement
 - Your order section which shows your shopping along with your total amount.  
 
 
-## Screenshots
+## Designs
 
 ![App Screenshot](https://github.com/Ashwini1011/Vss2-cart/blob/master/Left-side%20of%20cart.png)
 ![App Screenshot](https://github.com/Ashwini1011/Vss2-cart/blob/master/Right-side%20of%20cart.png)
