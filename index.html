@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>My Project</title>
+</head>
+<body>
+   <div class="main">
+       <div class="container">
+        <div class="left">
+            <h2>Shopping Cart</h2>
+            <div class="shopping-link">   
+                <div><a href="#">Homepage / </a></div>    
+                <div><a href="#"> Clothing Categories / </a></div>   
+                <div><a href="#"> My Shopping Cart </a></div>   
+             </div>
+            <!-- Login Card -->
+            <div class="login-card">
+                <div class="a-letter">a</div>
+                <div class="middle-info">
+                    <div class="login-text">
+                        <div class="login">LOGIN</div>
+                        <div><i class="fa-solid fa-check"></i></div>  
+                    </div>
+                    <div class="name-num">
+                        <div class="cust-name">Michael Smith</div>
+                        <div class="phone">+806-445 -4453</div>
+                    </div>   
+                </div>
+            <button class="btn">CHANGE</button>
+            </div>
+    
+            <!-- Address Card -->
+            <div class="address-card">
+                <div class="a-letter">b</div>
+                <div class="middle-address">
+                    <div class="login-text">
+                        <div class="login">SHIPPING ADDRESS</div>
+                        <div><i class="fa-solid fa-check"></i></div>  
+                    </div>
+                    <div class="address">
+                        <div class="cust-address">Brady cooper,near Civil Colony,Salt Lake City,Uthah</div>
+                        <div class="cust-address">United State,2971 Avenue.</div>
+                    </div>   
+                </div>
+            <button class="btn">CHANGE</button>
+            </div>
+    
+        <!-- Payment Method -->
+        <div class="pay-method">
+            <div class="a-letter">b</div>
+            <div class="login">PAYMENT METHOD</div>
+        </div>
+    
+        <!-- Debit Credit Card-->
+        <div class="card-start">
+        <div class="dc-card">
+            <div class="a-letter"></div>
+            <div class="card-icon"><i class="fa-solid fa-credit-card"></i></div>   
+            <div class="dc-card-text">Debit/Credit Card</div>
+        </div>
+        <label for="number" class="number">Enter card number *</label>
+        <input type="number" class="card-number">
+        <div class="card-number-info">
+            <div class="valid-date">
+                <label for="date" class="valid-date">Valid Date</label>
+                <input class="valid-date-input" type="month">
+            </div>
+            <div class="cvv">
+                <label class="cvv">CVV *</label>
+                <input class="cvv-input" type="Password">
+            </div>
+            <button class="black-btn">Pay $117.00</button>
+        </div>
+        <small>Your card details would be securely saved for faster payment.You CVV will not be stored</small>
+        <div class="dc-card">
+            <div class="blank-letter"></div>
+            <div class="card-icon"><i class="fa-solid fa-globe"></i></div>   
+            <div class="dc-card-text">Net Banking</div>
+        </div>
+        <div class="dc-card">
+            <div class="blank-letter"></div>
+            <div class="card-icon"><i class="fa-solid fa-wallet"></i></div>   
+            <div class="dc-card-text">Google/Apple Wallet</div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Right Part -->
+    <div class="right">
+        <h2>Your Order</h2>
+        <hr>
+        <div class="cloth-card">
+            <img src="./assets/images/shirt.png" alt="">
+            <div class="cloth-info">
+                <h3>Jeans with sequins</h3>
+                <div class="size-color-info">
+                     <div class="size"><span>Size</span> XL</div>
+                    <div class="color"><span>Color</span> Blue</div>
+                 </div> 
+                 <div class="cloth-price"><strong>$39,00</strong><span class="cloth"> x 02</span></div>   
+            </div>
+        </div>
+        <hr>
+        <div class="cloth-card">
+            <img src="./assets/images/top.png" alt="">
+            <div class="cloth-info">
+                <h3>Robinson Printed</h3>
+                <div class="size-color-info">
+                     <div class="size"><span>Size</span> XXL</div>
+                    <div class="color"><span>Color</span> Blue</div>
+                 </div> 
+                 <div class="cloth-price"><strong>$29,00</strong><span class="cloth"> x 01</span></div>   
+            </div>
+        </div>
+        <hr>
+        <div class="delivery">
+            <div class="div">Delivery</div>
+            <div><strong>$20</strong><span>(Express)</span></div>
+        </div>
+        <div class="discount">
+            <div class="div">Discount</div>
+            <div><strong>-$10</strong></div>
+        </div>
+        <div class="final-price">
+            <div>Total</div>
+            <div class="price">$117,00</div>
+        </div>
+        
+        </div>
+       </div>
+   </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
